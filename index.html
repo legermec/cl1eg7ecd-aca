@@ -9,55 +9,66 @@
 <body>
 
     <!-- ============================= -->
-    <!--            HEADER            -->
+    <!--     PAGE CONTENT WRAPPER     -->
     <!-- ============================= -->
-    <header>
+    <div class="page-content">
 
-        <!-- Identity block: profile image + name -->
-        <div class="identity-block">
-            <img src="media/profile.jpg" alt="Profile photo" class="profile-pic">
-            <div class="name-and-nav">
-                <h1>Your Name</h1>
+        <!-- ============================= -->
+        <!--            HEADER            -->
+        <!-- ============================= -->
+        <header>
+            <!-- Identity block: profile image + name -->
+            <div class="identity-block">
+                <img src="media/profile.jpg" alt="Profile photo" class="profile-pic">
+                <div class="name-and-nav">
+                    <h1>Your Name</h1>
 
-                <!-- Navigation bar under name -->
-                <nav>
-                    <ul>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#teaching">Teaching</a></li>
-                        <li><a href="#research">Research</a></li>
-                    </ul>
-                </nav>
+                    <!-- Navigation bar under name -->
+                    <nav>
+                        <ul>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#teaching">Teaching</a></li>
+                            <li><a href="#research">Research</a></li>
+                        </ul>
+                    </nav>
+                </div>
             </div>
-        </div>
+        </header>
+        
+       <!-- Divider --> 
+       <hr class="header-divider">
 
-    </header>
+        <!-- ============================= -->
+        <!--          MAIN CONTENT         -->
+        <!-- ============================= -->
+        <main>
+            <section id="about">
+                <h2>About</h2>
+                <p>This is placeholder content for the About section. Describe yourself here.</p>
+            </section>
 
-    <!-- ============================= -->
-    <!--          MAIN CONTENT         -->
-    <!-- ============================= -->
-    <main>
-        <section id="about">
-            <h2>About</h2>
-            <p>This is placeholder content for the About section. Describe yourself here.</p>
-        </section>
+            <section id="teaching">
+                <h2>Teaching</h2>
+                <p>This is placeholder content for the Teaching section. List your teaching experience here.</p>
+            </section>
 
-        <section id="teaching">
-            <h2>Teaching</h2>
-            <p>This is placeholder content for the Teaching section. List your teaching experience here.</p>
-        </section>
+            <section id="research">
+                <h2>Research</h2>
+                <p>This is placeholder content for the Research section. Outline your research interests here.</p>
+            </section>
+        </main>
 
-        <section id="research">
-            <h2>Research</h2>
-            <p>This is placeholder content for the Research section. Outline your research interests here.</p>
-        </section>
-    </main>
+        <!-- Divider -->   
+        <hr class="footer-divider">
 
-    <!-- ============================= -->
-    <!--            FOOTER            -->
-    <!-- ============================= -->
-    <footer>
-        <p>&copy; 2025</p>
-    </footer>
+        <!-- ============================= -->
+        <!--            FOOTER            -->
+        <!-- ============================= -->
+        <footer>
+            <p>&copy; 2025</p>
+        </footer>
+
+    </div> <!-- end .page-content -->
 
 </body>
 </html>
