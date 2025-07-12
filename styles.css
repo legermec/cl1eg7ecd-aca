@@ -188,3 +188,31 @@ body::before {
     width: 100%;
     margin: 30px auto 0 auto;
 }
+
+/* ------------------------------ */
+/*        LINKEDIN FOOTER         */
+/* ------------------------------ */
+footer {
+    background-color: var(--accent-gray-green);
+    text-align: center;
+    padding: 20px;
+}
+
+.linkedin-footer {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.linkedin-footer:hover {
+    color: var(--accent-green);
+}
+
+.linkedin-icon {
+    width: 24px;
+    height: 24px;
+}
+
