@@ -27,8 +27,8 @@
                     <nav>
                         <ul>
                             <li><a href="#about">About</a></li>
-                            <li><a href="#teaching">Teaching</a></li>
                             <li><a href="#research">Research</a></li>
+                            <li><a href="#outreach">Outreach</a></li>
                             <li><a href="#cv">CV</a></li>            
                         </ul>
                     </nav>
@@ -46,11 +46,6 @@
             <section id="about">
                 <h2>About</h2>
                 <p>This is placeholder content for the About section. Describe yourself here.</p>
-            </section>
-
-            <section id="teaching">
-                <h2>Teaching</h2>
-                <p>This is placeholder content for the Teaching section. List your teaching experience here.</p>
             </section>
 
             <section id="research">
@@ -73,6 +68,19 @@
                 </dl>
             </section>
             
+            <section id="outreach">
+                <h2>Communication &amp; Outreach</h2>
+            
+                <div class="slideshow-container">
+                    <img class="slideshow-image" src="media/splash.jpg" alt="Splash teaching image">
+                    <img class="slideshow-image" src="media/spark.jpg" alt="Spark group photo">
+                    <img class="slideshow-image" src="media/linguistic-detectives.jpeg" alt="Linguistic detectives">
+                    <img class="slideshow-image" src="media/splash-lecture.jpg" alt="Lecture photo">
+                </div>
+            
+                <p>This is placeholder content for the Communication & Outreach section. Add descriptions of teaching, public engagement, or education work here.</p>
+            </section>
+            
             <section id="cv">
                 <h2>CV</h2>
                 <embed src="cv/cv.pdf" type="application/pdf" width="100%" height="800px" />
@@ -92,7 +100,28 @@
             </a>
         </footer>
 
-    </div> <!-- end .page-content -->
+    </div> 
 
+        <!-- ============================= -->
+        <!--          Slideshow            -->
+        <!-- ============================= -->
+    
+    <script>
+        let slideIndex = 0;
+        const slides = document.getElementsByClassName("slideshow-image");
+        
+        function showSlides() {
+            for (let i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) { slideIndex = 1; }
+            slides[slideIndex - 1].style.display = "block";
+            slides[slideIndex - 1].style.animation = "fadeIn 1s";
+            setTimeout(showSlides, 4000);
+        }
+        
+        window.onload = showSlides;
+    </script>
 </body>
 </html>
