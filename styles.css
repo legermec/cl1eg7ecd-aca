@@ -241,24 +241,23 @@ footer {
 .slideshow-container {
     position: relative;
     width: 100%;
-    max-width: 600px;       
-    height: 350px;          
+    max-width: 300px;        
+    height: 175px;         
     margin: 0 auto 20px auto;
     overflow: hidden;
-    border: 2px solid black;
+    border: 4px solid black; 
     border-radius: 10px;
-    background-color: white;  
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    background-color: white;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
 }
 
 .slideshow-image {
     width: 100%;
     height: 100%;
-    object-fit: cover;        
+    object-fit: cover;
     display: none;
-    border-radius: 10px;
+    border-radius: 6px;
 }
-
 
 /* fade in animation */
 @keyframes fadeIn {
