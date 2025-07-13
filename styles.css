@@ -260,3 +260,10 @@ footer {
     from { opacity: 0; }
     to { opacity: 1; }
 }
+
+/* On mobile */
+@media (max-width: 600px) {
+    .slideshow-image {
+        max-height: 150px;
+    }
+}
