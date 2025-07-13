@@ -134,6 +134,25 @@ section h2 {
     padding-bottom: 5px;
 }
 
+/* ------------------------------ */
+/*       RESEARCH SECTION         */
+/* ------------------------------ */
+.research-list {
+    margin: 0;
+    padding-left: 0;
+}
+
+.research-list dt {
+    margin-top: 1.2em;
+    font-weight: 600;
+    color: var(--accent-dark-blue);
+}
+
+.research-list dd {
+    margin: 0 0 0.75em 1.2em;
+    color: var(--accent-gray-green);
+    font-style: italic;
+}
 
 /* ------------------------------ */
 /*            FOOTER              */
