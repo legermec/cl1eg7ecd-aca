@@ -235,3 +235,29 @@ footer {
     height: 24px;
 }
 
+/* ------------------------------ */
+/*        SLIDESHOW STYLES        */
+/* ------------------------------ */
+.slideshow-container {
+    position: relative;
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto 20px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+
+.slideshow-image {
+    width: 100%;
+    display: none;
+    object-fit: cover;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+/* fade in animation */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
