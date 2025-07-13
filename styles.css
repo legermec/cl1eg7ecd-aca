@@ -267,3 +267,17 @@ footer {
         max-height: 150px;
     }
 }
+
+/* ------------------------------ */
+/*           HYPERLINKS           */
+/* ------------------------------ */
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: var(--accent-green);
+}
+
