@@ -281,3 +281,18 @@ a:hover {
     color: var(--accent-green);
 }
 
+/* ------------------------------ */
+/*           ICONS                */
+/* ------------------------------ */
+.pdf-icon {
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
+    vertical-align: text-bottom;
+}
+
+.pdf-link:hover .pdf-icon {
+    opacity: 0.7;
+}
+
+
