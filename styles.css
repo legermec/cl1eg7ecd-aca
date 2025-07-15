@@ -149,7 +149,8 @@ section h2 {
 }
 
 .research-list dd {
-    margin: 0 0 0.75em 1.2em;
+    margin: 0 0 0.75em 0;
+    padding-left: 0.5em;
     color: var(--accent-gray-green);
     font-style: italic;
 }
